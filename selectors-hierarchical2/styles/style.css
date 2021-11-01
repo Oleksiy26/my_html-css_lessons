@@ -1,9 +1,9 @@
-.already-learned > ol > li {
+.already-learned > ol {
   color: white;
   background-color: green;
 }
 
-.to-be-learned > ol > li {
+.to-be-learned > ol {
   color: green;
   background-color: orange;
 }
