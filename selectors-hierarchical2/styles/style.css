@@ -9,6 +9,9 @@ li[data-description~='even'] {
   font-size: 24px;
 }
 
+li[data-description*='even'] {
+  font-size: 24px;
+}
 a[href^="https://"]
 {
   color: green;
