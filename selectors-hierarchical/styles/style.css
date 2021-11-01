@@ -1,14 +1,21 @@
-[data-description='anchors'] {
-  background-color: grey;
+li {
+  margin-bottom: 16px;
 }
 
-[data-description] {
-  font-size: 24px;
-}
-[href][target] {
-  color: green;
+ol > li > span {
+  color: white;
+  background-color: green;
 }
 
-[type='text'] {
+ul > li > span {
+  color: white;
   background-color: orange;
+}
+
+#special + li {
+  border: 3px solid red;
+}
+
+#special ~ li {
+  margin-left: 16px;
 }
