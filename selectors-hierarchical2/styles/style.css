@@ -1,14 +1,18 @@
-[data-description='anchors'] {
-  background-color: grey;
+img[alt='Pollution'] {
+  border: 5px dashed red;
+}
+img[src$='.jpg'] {
+  margin-left: 50px;
 }
 
-[data-description] {
+li[data-description~='even'] {
   font-size: 24px;
 }
-[href][target] {
+a[href^="https://"]
+{
   color: green;
 }
 
-[type='text'] {
-  background-color: orange;
+span[lang|='en'] {
+  font-size: 28px;
 }
