@@ -1,22 +1,24 @@
-img[alt='Pollution'] {
-  border: 5px dashed red;
-}
-img[src$='.jpg'] {
-  margin-left: 50px;
-}
-li[data-description~='even'] {
-  background-color: gray;
-  font-size: 24px;
+.already-learned > ol > li {
+  color: white;
+  background-color: green;
 }
 
-li[data-description*='even'] {
-  font-size: 24px;
-}
-a[href^="https://"]
-{
+.to-be-learned > ol > li {
   color: green;
+  background-color: orange;
 }
 
-span[lang|='en'] {
-  font-size: 28px;
+.already-learned code {
+  background-color: orange;
+}
+
+.to-be-learned code {
+  background-color: green;
+}
+.already-learned #special1 ~ li h4 > code {
+  border: 2px solid blue;
+}
+
+.to-be-learned #special2 ~ li {
+  font-size: 24px;
 }
