@@ -1,14 +1,18 @@
-[data-description='anchors'] {
-  background-color: grey;
+input:checked {
+  margin-left: 50px;
 }
 
-[data-description] {
-  font-size: 24px;
+label {
+  text-transform: uppercase;
 }
-[href][target] {
+#special::first-letter {
+  font-size: 100px;
   color: green;
 }
 
-[type='text'] {
-  background-color: orange;
+h1:hover {
+  color: blue;
+}
+a:visited {
+  color: gray;
 }
