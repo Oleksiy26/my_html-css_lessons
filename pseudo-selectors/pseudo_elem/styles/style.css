@@ -1,14 +1,22 @@
-[data-description='anchors'] {
-  background-color: grey;
+.theory::first-letter {
+  font-size: 36px;
+  color: orange;
+  margin-left: 16px;
 }
-
-[data-description] {
+.theory::first-line {
   font-size: 24px;
 }
-[href][target] {
-  color: green;
+
+.theory::selection {
+  color: white;
+  background-color: red;
 }
 
-[type='text'] {
-  background-color: orange;
+a::before {
+  content: '>';
+  color: green;
+}
+a::after {
+  content: '<';
+  color: green;
 }
