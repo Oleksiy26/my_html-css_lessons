@@ -21,7 +21,7 @@ input {
 }
 
 .hello {
-  background-color: rgb(182, 46, 46);
+  background-color: white;
 }
 #special {
   border: 2px solid blue;
