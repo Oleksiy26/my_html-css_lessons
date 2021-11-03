@@ -1,22 +1,20 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 .header {
   height: 40px;
   background-color: darkturquoise;
   position: sticky;
   top: 0;
-  left: 0px;
+  left: 0;
   z-index: 1000;
 }
 .navigation {
   height: 40px;
-  margin-left: 16px;
 }
 
 .nav-list {
   margin: 0;
-  padding: 0;
 }
 
 .nav-item {
@@ -24,25 +22,20 @@
   list-style: none;
   line-height: 40px;
   margin-left: 16px;
-  clear: right;
   color: white;
 }
 .content {
-  position: relative;
   background-color: beige;
   height: 5000px;
 }
 
 .head {
   background-color: aquamarine;
-  position: absolute;
+  position: relative;
   width: 200px;
   height: 200px;
   margin-right: auto;
   margin-left: auto;
-
-  left: 0;
-  right: 0;
   top: calc(50% - 100px);
 }
 
