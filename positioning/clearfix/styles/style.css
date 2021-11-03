@@ -1,21 +1,33 @@
-body {
-  background-color: antiquewhite;
-}
-
-.rectangle_1 {
-  box-sizing: content-box;
-  background-color: aquamarine;
-}
-
-.rectangle_2 {
+* {
   box-sizing: border-box;
-  background-color: azure;
 }
 
-.prop {
-  border: 8px solid black;
-  width: 512px;
-  height: 128px;
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+section {
+  background: aquamarine;
   padding: 16px;
-  margin: 16px;
+}
+
+footer {
+  height: 30px;
+  border: 2px solid black;
+  clear: both;
+}
+
+.container {
+  float: left;
+  width: 50%;
+}
+.red {
+  background-color: red;
+  float: right;
+  
+}
+.green {
+  background-color: green;
+  float: left;
 }
