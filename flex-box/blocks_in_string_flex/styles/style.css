@@ -1,33 +1,23 @@
-* {
-  box-sizing: border-box;
+body {
+  display: flex;
 }
 
-.square {
-  width: 100px;
-  height: 100px;
+.block {
+  height: 300px;
+  flex-grow: 1;
 }
-
-section {
-  background: aquamarine;
-  padding: 16px;
-}
-
-footer {
-  height: 30px;
-  border: 2px solid black;
-  clear: both;
-}
-
-.container {
-  float: left;
-  width: 50%;
-}
-.red {
+.block_red {
   background-color: red;
-  float: right;
-  
 }
-.green {
+.block_green {
   background-color: green;
-  float: left;
+}
+.block_blue {
+  background-color: blue;
+}
+.block_yellow {
+  background-color: yellow;
+}
+.block_black {
+  background-color: black;
 }
