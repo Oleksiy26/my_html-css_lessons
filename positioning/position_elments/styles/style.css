@@ -34,7 +34,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  top: 50%;
+  top: calc(50% - 100px);
   left: calc(50% - 100px);
 }
 
