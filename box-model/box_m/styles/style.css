@@ -1,3 +1,7 @@
+body {
+  background-color: antiquewhite;
+}
+
 .rectangle_1 {
   box-sizing: content-box;
   background-color: aquamarine;
