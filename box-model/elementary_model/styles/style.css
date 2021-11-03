@@ -1,22 +1,20 @@
-.theory::first-letter {
-  font-size: 36px;
-  color: orange;
-  margin-left: 16px;
-}
-.theory::first-line {
-  font-size: 24px;
+.rectangle {
+  box-sizing: border-box;
+  margin: 50px;
+  border: 2px solid black;
 }
 
-.theory::selection {
-  color: white;
-  background-color: red;
+.figure1 {
+  background-color: blue;
 }
 
-a::before {
-  content: '>';
-  color: green;
+.figure2 {
+  background-color: yellow;
 }
-a::after {
-  content: '<';
-  color: green;
+.figure3 {
+  background-color: green;
+}
+.figure4 {
+  background-color: pink;
+  padding: 50px;
 }
