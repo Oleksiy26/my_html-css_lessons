@@ -9,6 +9,10 @@
   left: 0px;
   z-index: 1000;
 }
+.navigation {
+  height: 40px;
+  margin-left: 16px;
+}
 
 .nav-list {
   margin: 0;
@@ -18,7 +22,8 @@
 .nav-item {
   float: left;
   list-style: none;
-  padding: 10px 0px 10px 16px;
+  line-height: 40px;
+  margin-left: 16px;
   clear: right;
   color: white;
 }
