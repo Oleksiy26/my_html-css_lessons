@@ -2,6 +2,7 @@
   height: 200px;
   float: left;
   width: 20%;
+  clear: right;
 }
 .block_red {
   background-color: red;
