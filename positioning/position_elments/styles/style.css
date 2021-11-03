@@ -13,9 +13,9 @@
   height: 40px;
 }
 
-/* .nav-list {
+.nav-list {
   margin: 0;
-} */
+}
 
 .nav-item {
   float: left;
@@ -31,10 +31,10 @@
 
 .head {
   background-color: aquamarine;
-  position: relative;
+  position: absolute;
   width: 200px;
   height: 200px;
-  top: 100px;
+  top: 50%;
   left: calc(50% - 100px);
 }
 
