@@ -5,9 +5,9 @@
   height: 40px;
   background-color: darkturquoise;
   position: sticky;
+  z-index: 1000;
   top: 0;
   left: 0;
-  z-index: 1000;
 }
 .navigation {
   height: 40px;
@@ -34,7 +34,7 @@
   position: relative;
   width: 200px;
   height: 200px;
-  top: 200px;
+  top: 100px;
   left: calc(50% - 100px);
 }
 
@@ -44,13 +44,13 @@
   height: 60px;
 }
 .ear_left {
-  position: relative;
+  position: absolute;
   float: left;
   top: -60px;
   left: -40px;
 }
 .ear_right {
-  position: relative;
+  position: absolute;
   float: right;
   top: -60px;
   right: -40px;
@@ -63,14 +63,14 @@
 }
 
 .eye_left {
-  position: relative;
+  position: absolute;
   float: left;
   top: 80px;
-  left: 0px;
+  left: 40px;
 }
 .eye_right {
-  position: relative;
+  position: absolute;
   float: right;
   top: 80px;
-  right: 0px;
+  right: 40px;
 }
