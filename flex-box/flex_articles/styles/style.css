@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 .articles-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap;
 }
 
 .article {
