@@ -34,9 +34,8 @@
   position: relative;
   width: 200px;
   height: 200px;
-  margin-right: auto;
-  margin-left: auto;
-  top: calc(50% - 100px);
+  top: 200px;
+  left: calc(50% - 100px);
 }
 
 .ear {
@@ -67,11 +66,11 @@
   position: relative;
   float: left;
   top: 80px;
-  left: 40px;
+  left: 0px;
 }
 .eye_right {
   position: relative;
   float: right;
   top: 80px;
-  right: 40px;
+  right: 0px;
 }
