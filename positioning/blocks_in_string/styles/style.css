@@ -1,21 +1,20 @@
-body {
-  background-color: antiquewhite;
+.block {
+  height: 200px;
+  float: left;
+  width: 20%;
 }
-
-.rectangle_1 {
-  box-sizing: content-box;
-  background-color: aquamarine;
+.block_red {
+  background-color: red;
 }
-
-.rectangle_2 {
-  box-sizing: border-box;
-  background-color: azure;
+.block_green {
+  background-color: green;
 }
-
-.prop {
-  border: 8px solid black;
-  width: 512px;
-  height: 128px;
-  padding: 16px;
-  margin: 16px;
+.block_blue {
+  background-color: blue;
+}
+.block_yellow {
+  background-color: yellow;
+}
+.block_black {
+  background-color: black;
 }
