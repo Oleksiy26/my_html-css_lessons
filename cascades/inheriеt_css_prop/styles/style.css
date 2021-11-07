@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+  list-style: none;
+}
+
+.properties-list {
+  color: #f39;
+  line-height: 32px;
+}
+
+.properties-list__item {
+  font-size: 24px;
+  padding: 8px;
+}
