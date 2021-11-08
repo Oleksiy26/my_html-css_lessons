@@ -13,6 +13,7 @@
 }
 
 .image-button {
+  cursor: pointer;
   position: absolute;
   display: inline-block;
   background-color: bisque;
