@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.image-container {
+  margin: 50px 0 50px;
+}
+
+img {
+  display: block;
+  border-radius: 20px;
+  margin: 0 auto;
+}
