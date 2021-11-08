@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
-div {
+.input,
+.choose-gender {
   margin: 16px;
+}
+
+.choose-gender {
+  display: flex;
 }
