@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-size: 18px;
-  list-style: none;
 }
 
 .properties-list {
@@ -12,4 +11,5 @@
   font-size: 24px;
   padding: 8px;
   line-height: 32px;
+  list-style: none;
 }
