@@ -4,13 +4,13 @@
 
 .image-container {
   margin: 50px auto;
-  max-width: 100%;
 }
 
 .main-img {
   display: block;
   border-radius: 20px;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .gallery {
