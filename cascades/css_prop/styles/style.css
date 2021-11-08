@@ -1,17 +1,11 @@
-* {
-  box-sizing: border-box;
-}
-body {
+html {
   font-size: 18px;
-}
-
-.properties-list {
-  color: #f39;
 }
 
 .properties-list__item {
   font-size: 24px;
   padding: 8px;
   line-height: 32px;
-  list-style: none;
+  color: #f39;
+  list-style-type: none;
 }
