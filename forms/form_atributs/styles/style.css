@@ -7,8 +7,7 @@
   margin: 16px;
 }
 input {
-  border: 1px solid orange;
+  border: 2px solid orange;
   outline: none;
-  border-radius: 5px;
-  border
+  border-radius: 2px;
 }
