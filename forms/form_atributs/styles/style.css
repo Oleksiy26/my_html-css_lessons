@@ -7,7 +7,10 @@
   margin: 16px;
 }
 input {
-  border: 2px solid #e59700;
-  outline: none;
   border-radius: 2px;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid #e59700;
 }
