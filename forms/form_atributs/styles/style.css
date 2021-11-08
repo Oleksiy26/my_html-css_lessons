@@ -6,3 +6,7 @@
 .choose-gender {
   margin: 16px;
 }
+input {
+  border-color: orange;
+  outline: none;
+}
