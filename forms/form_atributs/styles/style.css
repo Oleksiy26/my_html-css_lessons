@@ -2,15 +2,12 @@
   box-sizing: border-box;
 }
 
-.input,
-.choose-gender {
+.form-control {
   margin: 16px;
 }
-input {
-  border-radius: 2px;
-  outline: none;
-}
 
-input:focus {
+input {
   border: 2px solid #e59700;
+  outline: none;
+  border-radius: 2px;
 }
