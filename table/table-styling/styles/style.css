@@ -12,7 +12,7 @@ th {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: right;
-  line-height: 40px;
+  height: 40px;
 }
 td,
 th {
@@ -29,11 +29,13 @@ caption {
   margin-bottom: 8px;
 }
 
-thead th {
+thead {
   background-color: aqua;
-  font-weight: 700;
 }
 tbody > tr:hover {
   color: white;
   background-color: #aaa;
+}
+tfoot {
+  font-weight: 700;
 }
