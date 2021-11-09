@@ -11,6 +11,7 @@ table,
 td {
   border: 1px solid black;
   border-collapse: collapse;
+  background-color: black;
 }
 tr {
   height: 50px;
@@ -20,6 +21,7 @@ th {
   width: 50px;
 }
 th {
+  font-weight: normal;
   background-color: white;
 }
 
@@ -29,11 +31,4 @@ table tr:nth-child(odd) td:nth-child(odd) {
 
 table tr:nth-child(even) td:nth-child(even) {
   background-color: white;
-}
-
-table tr:nth-child(even) td:nth-child(even) {
-  background-color: black;
-}
-table tr:nth-child(odd) td:nth-child(odd) {
-  background-color: black;
 }
