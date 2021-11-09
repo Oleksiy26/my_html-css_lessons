@@ -20,7 +20,7 @@ body {
   padding: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(50%);
   left: calc(50% - 150px);
 }
 .form-title {
