@@ -6,6 +6,7 @@
   margin: 32px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 .rect {
   display: flex;
@@ -16,6 +17,9 @@
   width: 100px;
   height: 100px;
   opacity: 0.5;
+}
+.rect:last-child {
+  margin-bottom: 0;
 }
 
 .rect:hover {
