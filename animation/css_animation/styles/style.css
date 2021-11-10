@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.square {
+  background-color: coral;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation: go 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  transition: bacground-color 1s;
+}
+
+@keyframes go {
+  0% {
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 300px;
+    background-color: cornflowerblue;
+  }
+  50% {
+    top: 300px;
+    left: 300px;
+    background-color: aqua;
+  }
+  75% {
+    top: 300px;
+    left: 0;
+    background-color: yellowgreen;
+  }
+  100% {
+    top: 0px;
+    left: 0;
+    background-color: coral;
+  }
+}
