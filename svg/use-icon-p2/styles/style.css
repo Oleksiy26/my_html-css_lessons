@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.battery {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.battery__full {
+  font-size: 16px;
+}
+.battery__three-quarters {
+  font-size: 32px;
+}
+.battery__half {
+  font-size: 64px;
+}
+.battery__quarter {
+  font-size: 128px;
+}
+.battery__empty {
+  font-size: 256px;
+}
+.battery__empty {
+  font-size: 256px;
+}
