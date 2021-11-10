@@ -31,7 +31,6 @@
   background-color: #000;
   animation: blinking 2s, moving 2s;
   animation-iteration-count: infinite;
-  left: 70px;
 }
 
 @keyframes moving {
