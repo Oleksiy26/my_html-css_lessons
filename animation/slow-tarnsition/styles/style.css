@@ -18,9 +18,7 @@
   height: 100px;
   opacity: 0.5;
 }
-.rect:last-child {
-  margin-bottom: 0;
-}
+
 
 .rect:hover {
   width: 100%;
