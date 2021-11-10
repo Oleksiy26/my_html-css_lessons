@@ -11,7 +11,6 @@
 .spinner {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 .spinner-text {
   font-size: 16px;
@@ -30,8 +29,9 @@
   height: 4px;
   border-radius: 2px;
   background-color: #000;
-  animation: moving 2s, blinking 2s;
+  animation: blinking 2s, moving 2s;
   animation-iteration-count: infinite;
+  left: 0;
 }
 
 @keyframes moving {
