@@ -1,11 +1,13 @@
-* {
+/* * {
   box-sizing: border-box;
 }
+html {
+  line-height: none;
+} */
 
 .battery {
   display: flex;
   justify-content: space-around;
- 
 }
 .battery__full {
   font-size: 16px;
