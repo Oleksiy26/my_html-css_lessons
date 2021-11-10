@@ -32,7 +32,7 @@
   animation: moving 2s, blinking 2s;
   animation-iteration-count: infinite;
   top: 20px;
-  left: 0;
+  left: 70px;
 }
 
 @keyframes moving {
