@@ -4,12 +4,9 @@
 .container {
   height: 100vh;
   display: flex;
-  align-items: center;
 }
 
 .spinner {
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
 }
 .spinner-text {
@@ -30,7 +27,6 @@
   animation: blinking 2s, moving 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  /* margin: 0 auto; */
 }
 
 @keyframes moving {
