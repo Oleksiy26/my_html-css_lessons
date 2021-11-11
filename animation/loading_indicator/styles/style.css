@@ -4,14 +4,13 @@
 .container {
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .spinner {
   display: flex;
   flex-direction: column;
- 
+  margin: 0 auto;
 }
 .spinner-text {
   font-size: 16px;
@@ -23,8 +22,6 @@
 }
 
 .rect {
-  display: flex;
-  justify-content: flex-start;
   position: relative;
   width: 10px;
   height: 4px;
