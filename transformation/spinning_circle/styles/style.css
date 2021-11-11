@@ -18,9 +18,8 @@
   border-bottom: 4px solid lightgray;
   border-left: 4px solid lightgray;
   border-radius: 50%;
+  margin: auto auto 8px auto;
   animation: spin 2s linear infinite;
-  margin: auto;
-  margin-bottom: 8px;
 }
 
 .spinner-text {
