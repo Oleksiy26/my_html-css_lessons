@@ -22,6 +22,7 @@
 }
 
 .rect {
+  position: relative;
   width: 10px;
   height: 4px;
   border-radius: 2px;
@@ -29,6 +30,7 @@
   animation: blinking 2s, moving 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  margin: 0 auto;
 }
 
 @keyframes moving {
