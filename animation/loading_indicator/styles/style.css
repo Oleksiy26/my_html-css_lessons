@@ -22,7 +22,6 @@
 }
 
 .rect {
-  position: relative;
   width: 10px;
   height: 4px;
   border-radius: 2px;
