@@ -29,7 +29,7 @@ h1 {
   color: white;
 }
 .main {
-  display: inline-flex;
+  display: flex;
   flex: 1 1 auto;
 }
 
@@ -57,7 +57,7 @@ h1 {
 }
 
 .section {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   min-width: 60%;
   padding: 0.5em;
