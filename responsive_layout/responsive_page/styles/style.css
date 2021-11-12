@@ -5,6 +5,9 @@
 ul {
   list-style: none;
 }
+p {
+  margin: 0;
+}
 
 html {
   font-family: Verdana, Tahoma, sans-serif;
@@ -23,9 +26,7 @@ body {
 }
 
 h1 {
-  margin: auto;
   color: white;
-  padding: 0.64em 0;
 }
 .main {
   display: inline-flex;
@@ -79,7 +80,7 @@ h1 {
   font-weight: 700;
 }
 .news {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   min-width: 20%;
   padding: 0.5em;
@@ -90,12 +91,3 @@ h1 {
   text-align: center;
   padding: 0.5em;
 }
-
-/* @media screen and (min-width: 600px) {
-  .nav-list-item{
-
-  }
-}
-
-@media screen and (min-width: 1200px) {
-} */
