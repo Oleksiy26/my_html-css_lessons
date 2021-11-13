@@ -45,7 +45,7 @@ h2 {
 .nav-list {
   padding: 0;
   width: 100%;
-  margin: 0;
+  margin-bottom: 0;
 }
 .nav-list-item {
   background-color: #808080;
