@@ -64,7 +64,7 @@ h1 {
   text-align: center;
 }
 picture {
-  margin: auto;
+  margin: 0 auto;
 }
 img {
   max-width: 100%;
