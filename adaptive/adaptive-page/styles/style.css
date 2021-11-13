@@ -60,12 +60,11 @@ h1 {
   font-size: 1.25em;
 }
 .section__header {
-  margin-top: 0;
   font-size: 5vw;
   text-align: center;
 }
 picture {
-  margin: 0 auto;
+  margin: auto;
 }
 img {
   max-width: 100%;
