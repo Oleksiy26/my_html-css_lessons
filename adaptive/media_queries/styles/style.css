@@ -26,4 +26,7 @@
   .container {
     flex-direction: column;
   }
+  .square {
+    background-color: #8a2be2;
+  }
 }
