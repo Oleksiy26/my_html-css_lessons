@@ -34,7 +34,7 @@ h2 {
 .main {
   display: flex;
   flex-direction: column;
-  flex: 1 1 auto;
+  /* flex: 1 0 auto; */
   justify-content: center;
 }
 
@@ -46,6 +46,7 @@ h2 {
 .nav-list {
   padding: 0;
   width: 100%;
+  margin-bottom: 0;
 }
 .nav-list-item {
   background-color: #808080;
