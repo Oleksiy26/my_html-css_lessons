@@ -69,7 +69,7 @@ h2 {
   margin-bottom: 0.83em;
 }
 picture {
-  margin: auto;
+  margin: 0 auto;
 }
 img {
   max-width: 100%;
@@ -113,5 +113,21 @@ img {
   }
   .section {
     width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    flex-wrap: nowrap;
+  }
+
+  .navigation {
+    min-width: 20%;
+  }
+  .section {
+    min-width: 60%;
+  }
+  .news {
+    min-width: 20%;
   }
 }
