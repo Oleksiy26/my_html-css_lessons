@@ -98,7 +98,7 @@ img {
 @media screen and (min-width: 600px) {
   .main {
     display: flex;
-    /* flex: 1 1 auto; */
+
     flex-wrap: wrap;
   }
 
@@ -113,6 +113,7 @@ img {
 @media screen and (min-width: 1200px) {
   .main {
     flex-wrap: nowrap;
+    flex: 1;
   }
 
   .navigation {
