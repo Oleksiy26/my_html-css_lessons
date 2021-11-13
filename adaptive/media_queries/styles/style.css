@@ -16,7 +16,7 @@
   margin: 8px;
 }
 
-@media screen and (min-width: 600px) and (orientation: landscape) {
+@media screen and (min-width: 600px) {
   .square {
     background-color: #8a2be2;
   }
