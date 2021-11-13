@@ -5,9 +5,9 @@
 ul {
   list-style: none;
 }
-p {
-  margin-bottom: 0;
-}
+/* p {
+  margin: 0;
+} */
 
 html {
   font-family: Verdana, Tahoma, sans-serif;
@@ -28,9 +28,13 @@ body {
 h1 {
   color: white;
 }
+h2 {
+  margin: 0;
+}
 
 .navigation {
   display: flex;
+
   padding: 0.5em;
 }
 .nav-list {
@@ -98,7 +102,7 @@ img {
 @media screen and (min-width: 600px) {
   .main {
     display: flex;
-
+    flex: 1 1 auto;
     flex-wrap: wrap;
   }
 
@@ -108,28 +112,4 @@ img {
   .section {
     width: 80%;
   }
-}
-
-@media screen and (min-width: 1200px) {
-  .main {
-    flex-wrap: nowrap;
-    flex: 1;
-  }
-
-  .navigation {
-    min-width: 20%;
-  }
-  .section {
-    min-width: 60%;
-  }
-  .news {
-    min-width: 20%;
-  }
-
-  /* p {
-    margin-top: 0;
-  }
-  .section__header {
-    margin-bottom: 0;
-  } */
 }
