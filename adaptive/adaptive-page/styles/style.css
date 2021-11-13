@@ -125,4 +125,11 @@ img {
   .news {
     min-width: 20%;
   }
+
+  /* p {
+    margin-top: 0;
+  }
+  .section__header {
+    margin-bottom: 0;
+  } */
 }
