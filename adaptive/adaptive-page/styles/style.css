@@ -2,12 +2,9 @@
   box-sizing: border-box;
 }
 
-/* p {
-  margin: 0;
-} */
-h2 {
+/* h2 {
   margin-bottom: 0;
-}
+} */
 
 html {
   font-family: Verdana, Tahoma, sans-serif;
@@ -97,7 +94,6 @@ img {
 .news {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   min-width: 20%;
   padding: 0.5em;
 }
