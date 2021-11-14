@@ -42,14 +42,19 @@ h1 {
   padding: 0;
   width: 100%;
   list-style: none;
-  /* margin-bottom: 0; */
 }
+/* .nav-list:last-child {
+  margin-bottom: 0;
+} */
 .nav-list-item {
   background-color: #808080;
   margin-bottom: 0.5em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.nav-list-item:last-child {
+  margin-bottom: 0;
 }
 .nav-list-link {
   text-decoration: none;
