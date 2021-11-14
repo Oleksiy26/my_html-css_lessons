@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 
-/* h2 {
+h2 {
   margin-bottom: 0;
-} */
+}
 
 html {
   font-family: Verdana, Tahoma, sans-serif;
@@ -40,9 +40,7 @@ h1 {
   width: 100%;
   list-style: none;
 }
-/* .nav-list:last-child {
-  margin-bottom: 0;
-} */
+
 .nav-list-item {
   background-color: #808080;
   margin-bottom: 0.5em;
