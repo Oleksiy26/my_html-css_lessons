@@ -60,6 +60,7 @@ h1 {
 .section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-width: 60%;
   padding: 0.5em;
   font-size: 1.25em;
