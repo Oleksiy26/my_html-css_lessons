@@ -1,0 +1,38 @@
+.header {
+  background-color: #eee;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 56px;
+}
+.nav-list__item {
+  cursor: pointer;
+  padding: 8px;
+  margin-left: 8px;
+  border-radius: 4px;
+  background-color: #ff7f50;
+  font-weight: 700;
+  color: #fff;
+}
+.nav-list__item:hover {
+  opacity: 0.7;
+}
+.nav-list__item_selected {
+  background-color: #fb0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
