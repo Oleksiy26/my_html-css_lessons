@@ -32,14 +32,10 @@ h1 {
 .main {
   display: flex;
   flex-direction: column;
-  flex: 1 1 auto;
-  justify-content: center;
 }
 
 .navigation {
   display: flex;
-  align-items: center;
-
   padding: 0.5em;
 }
 .nav-list {
@@ -95,12 +91,12 @@ img {
 .news {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   min-width: 20%;
   padding: 0.5em;
 }
 
 .footer {
+  margin-top: auto;
   background-color: #e5e5e5;
   text-align: center;
   padding: 0.5em;
