@@ -60,7 +60,6 @@ h1 {
 .section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   min-width: 60%;
   padding: 0.5em;
   font-size: 1.25em;
@@ -81,7 +80,7 @@ img {
 
 .units-list {
   line-height: 1.75em;
-  margin: 0;
+  margin-top: 0;
 }
 .css-units {
   color: #8b0000;
