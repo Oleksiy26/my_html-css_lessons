@@ -97,6 +97,7 @@ img {
 .news {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-width: 20%;
   padding: 0.5em;
 }
