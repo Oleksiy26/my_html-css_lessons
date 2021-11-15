@@ -11,6 +11,8 @@
   list-style: none;
   &__item {
     padding: 0 $unit;
+    line-height: 3em;
+    color: $text-color-prime;
   }
   &__item:hover {
     background-color: #9acd32;
@@ -32,7 +34,7 @@
   list-style: none;
   &__item {
     padding: 0 $unit;
-    color: #fff;
+    color: $text-color-prime;
     min-width: 120px;
   }
   &__item:hover {
