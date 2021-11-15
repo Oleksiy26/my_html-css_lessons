@@ -1,0 +1,49 @@
+@import 'breakpoints';
+@import 'variables';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  @include for-medium-up {
+    flex-direction: row;
+  }
+}
+
+.navigation {
+  display: flex;
+  background-color: $nav-color;
+  min-height: 200px;
+  flex: 1;
+  @include for-small-up {
+    flex-grow: 1;
+  }
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  @include for-small-up {
+    flex-direction: row;
+  }
+  @include for-medium-up {
+    flex: 2;
+  }
+}
+
+.products-list {
+  display: flex;
+  background-color: #006400;
+  min-height: 200px;
+  flex: 1;
+  @include for-small-up {
+    .products-list {
+      flex-grow: 1;
+    }
+  }
+}
+.news {
+  display: flex;
+  background-color: #00ffff;
+  flex: 1;
+  min-height: 200px;
+}
